@@ -1,0 +1,96 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+@font-face{
+    src: url(Silkroad.ttf);
+    font-family: Silkroad;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+h3{
+    margin: 0px;
+}
+
+.subtitle{
+    padding: 20px;
+}
+
+#hero{
+    color:#001427;
+    font-family: "Silkroad",sans-serif;
+    font-weight: bold;
+    background-image: url("images/beijing-bg-img.jpg");
+    background-size: cover;
+    padding-top: 190px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#main-title, #main-text{
+    background: #f4d58d;
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px #708d81;
+}
+
+#main-text{
+    margin-top: 0px;
+}
+
+#activities{
+    background: #f4d58d;
+    font-family: "Merriweather", serif;
+    line-height: 1.6pc;
+}
+
+.activity-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.panels{
+    display:flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.panel{
+    width: 200px;
+}
+
+.card{
+    width: 400px;
+    margin: 50px auto;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px 50px;
+    background: #669bbc;
+    border-radius:10px;
+    box-shadow: 10px 10px 3px #003049;
+    font-family: "Merriweather", serif;
+    line-height: 1.6pc;
+}
+
+#avatar{
+    width: 150px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
